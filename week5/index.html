@@ -52,6 +52,21 @@
     return a * b;
     }
     </script>
+    
+    <h2 style="display: inline-block; padding-left: 10px;">Classes</h2>
+    <p id="classes"></p>
+    <script>
+    class Car {
+    constructor(name, year) {
+    this.name = name;
+    this.year = year;}
+    }
+    const myCar1 = new Car("Toyota", 2014);
+    const myCar2 = new Car("Honda", 2019);
+
+    document.getElementById("classes").innerHTML =
+    myCar1.name + " " + myCar2.name;
+    </script>
 
     
     </div>
