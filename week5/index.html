@@ -67,9 +67,20 @@
     document.getElementById("classes").innerHTML =
     myCar1.name + " " + myCar2.name;
     </script>
+    
+    <h2 style="display: inline-block; padding-left: 10px; margin-top: 20px;">Async</h2>
+    <p>Wait 2 seconds (2000 milliseconds) for this page to change.</p>
+    <h2 style="display: inline-block; color: rgb(255, 255, 255);" id="demo4"></h2>
+    <script>
+    setInterval(myFunction, 2000);
+    function myFunction() {
+    document.getElementById("demo4").innerHTML = "Thank you Visiting!";
+    }
+    </script>
+    </div>
 
     
-    </div>
+   
     <!--End-->
 
 
