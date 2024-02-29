@@ -53,5 +53,14 @@ $myCar = new Car("White", "Toyota Revo");
 echo $myCar -> message(); 
 ?>
 </div>
+
+<div>
+<h2>Operator & Math</h2>
+<?php
+var_dump(abs(-4.2));
+var_dump(abs(5));
+var_dump(abs(-5));
+?>
+</div>
 </body>
 </html>
